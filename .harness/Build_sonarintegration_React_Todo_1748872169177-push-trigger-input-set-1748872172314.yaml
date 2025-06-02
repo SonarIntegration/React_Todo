@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sonarintegration_React_Todo_1748872169177-push-trigger-input-set
+  identifier: Build_sonarintegration_React_Todo_1748872169177pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_sonarintegration_React_Todo_1748872169177
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

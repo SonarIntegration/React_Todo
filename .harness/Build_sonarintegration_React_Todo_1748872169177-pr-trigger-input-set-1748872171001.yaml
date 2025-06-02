@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sonarintegration_React_Todo_1748872169177-pr-trigger-input-set
+  identifier: Build_sonarintegration_React_Todo_1748872169177prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_sonarintegration_React_Todo_1748872169177
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
